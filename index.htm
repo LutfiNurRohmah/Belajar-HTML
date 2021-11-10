@@ -1,5 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+<title>Belajar HTML</title>
+<style>
+.internal {
+ background-color: powderblue;
+}
+h4 {
+ color: blue;
+}
+.red {
+ color: red;
+}
+.border {
+ border: 2px solid green;
+}
+.padding {
+ border: 2px solid powderblue;
+ padding: 30px;
+}
+.margin {
+ border: 2px solid powderblue;
+ margin: 50px;
+}
+</style>
+<link rel="stylesheet" href="styles.css">
+</head>
 <body>
 
 <h1>My First Heading</h1>
@@ -363,6 +389,54 @@ Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lo
 <h1 style="background-color:hsla(9, 100%, 64%, 0.4);">hsla(9, 100%, 64%, 0.4)</h1>
 <h1 style="background-color:hsla(9, 100%, 64%, 0.6);">hsla(9, 100%, 64%, 0.6)</h1>
 <h1 style="background-color:hsla(9, 100%, 64%, 0.8);">hsla(9, 100%, 64%, 0.8)</h1>
+
+<h1>HTML Styles - CSS</h1>
+<h2>Inline CSS</h2></p>
+<p>by using the style attribute inside HTML elements</p>
+<p>Example:</p>
+<h1 style="color:blue;">A Blue Heading</h1>
+<p style="color:red;">A red paragraph.</p>
+
+<dir class="internal">
+<h2>Internal CSS</h2>
+<p>by using a style element in the 'head' section</p>
+<h4>This is a heading</h4>
+<p class="red">This is a paragraph.</p>
+</dir>
+
+<dir class="external">
+<h2>External CSS</h2>
+<p>by using a link element to link to an external CSS file</p>
+<h4>This is a heading</h4>
+<p class="green">This is a paragraph.</p>
+</dir>
+
+<h2>CSS Colors, Fonts and Sizes</h2>
+<h1 style="color:blue; font-family:verdana; font-size:300%;">This is a heading</h1>
+<p style="color:red; font-family:courier; font-size:160%;">This is a paragraph.</p>
+
+<h2>CSS Border</h2>
+<h3>This is a heading</h3>
+<p style="border: 2px solid powderblue">This is a paragraph.</p>
+<p class="border">This is a paragraph.</p>
+<p class="border">This is a paragraph.</p>
+
+<h2>CSS Padding</h2>
+<h3>This is a heading</h3>
+<p style="border: 2px solid green; padding: 30px">This is a paragraph.</p>
+<p class="padding">This is a paragraph.</p>
+<p class="padding">This is a paragraph.</p>
+
+<h2>CSS Margin</h2>
+<h3>This is a heading</h3>
+<p style="border: 2px solid green; margin: 50px;">This is a paragraph.</p>
+<p class="margin">This is a paragraph.</p>
+<p class="margin">This is a paragraph.</p>
+
+<h2>Link to External CSS</h2>
+<p>Use a full URL: tag 'link rel="stylesheet" href="https://www.w3schools.com/html/styles.css"'</p>
+<p>Use stylesheet located in other folder: tag 'link rel="stylesheet" href="/html/styles.css"'</p>
+<p>Use stylesheet located in the same folder: tag 'link rel="stylesheet" href="styles.css"'</p>
 
 </body>
 </html>
